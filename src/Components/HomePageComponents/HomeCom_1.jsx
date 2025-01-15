@@ -4,11 +4,8 @@ import { motion } from "framer-motion";
 function HomeCom_1() {
   return (
     <div className="min-h-screen w-full bg-black text-white flex flex-col">
-      {/* Main Section */}
       <div className="flex flex-col items-center justify-between flex-grow px-4 md:px-8">
-        {/* Top Content */}
         <div className="mt-8 text-center">
-          {/* Heading */}
           <div className="mb-6">
             <motion.h1
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-300"
@@ -28,7 +25,6 @@ function HomeCom_1() {
             </motion.h1>
           </div>
 
-          {/* Subtext */}
           <div className="mb-8 max-w-xl mx-auto">
             <motion.p
               className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed"
@@ -41,7 +37,6 @@ function HomeCom_1() {
             </motion.p>
           </div>
 
-          {/* Buttons */}
           <div className="flex flex-wrap justify-center gap-4">
             <motion.button
               className="bg-gradient-to-t from-[#10C6FE] to-white text-black px-6 py-3 rounded-full text-sm sm:text-base md:text-lg"
@@ -63,10 +58,8 @@ function HomeCom_1() {
             </motion.button>
           </div>
 
-          {/* Card Section with Motion */}
           <div className="relative mt-12 w-full flex  justify-center items-center">
             <div className="relative w-full max-w-2xl mx-auto flex justify-center items-center">
-              {/* Card 1 */}
               <motion.img
                 src="https://framerusercontent.com/images/oVzsjnF7pbuUpFOa6pbEvrVE.png"
                 alt="Card 1"
@@ -78,7 +71,6 @@ function HomeCom_1() {
                 transition={{ duration: 1.8 }}
               />
 
-              {/* Card 2 */}
               <motion.img
                 src="https://framerusercontent.com/images/nUekvLII8vRBFNKYaYDbim4pdI.png"
                 alt="Card 2"
