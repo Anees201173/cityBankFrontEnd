@@ -58,13 +58,13 @@ function HomeCom_1() {
             </motion.button>
           </div>
 
-          <div className="relative mt-12 w-full flex  justify-center items-center">
+          <div className="   relative mt-12 w-full flex  justify-center items-center  ">
             <div className="relative w-full max-w-2xl mx-auto flex justify-center items-center">
               <motion.img
                 src="https://framerusercontent.com/images/oVzsjnF7pbuUpFOa6pbEvrVE.png"
                 alt="Card 1"
                 className="w-[40%] sm:w-[50%] md:w-[50%] lg:w-[40%] rotate-[-5deg] z-10 absolute"
-                style={{ top: "10%", left: "50%" }}
+                style={{ top: "10%", left: "40%" }}
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -74,8 +74,8 @@ function HomeCom_1() {
               <motion.img
                 src="https://framerusercontent.com/images/nUekvLII8vRBFNKYaYDbim4pdI.png"
                 alt="Card 2"
-                className="w-[80%] sm:w-[60%] md:w-[40%] lg:w-[50%] rotate-[0deg] z-0 absolute "
-                style={{ top: "30%", right: "40%" }}
+                className="w-[50%] sm:w-[60%] md:w-[40%] lg:w-[50%] rotate-[0deg] z-0 absolute "
+                style={{ top: "30%", right: "40%",left: "10%" }}
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
