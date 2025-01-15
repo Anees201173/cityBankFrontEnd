@@ -1,10 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { MdAccountBalanceWallet } from "react-icons/md";
 
 function HomeCom_1() {
   return (
     <div className="min-h-screen w-full bg-black text-white flex flex-col">
-      <div className="flex flex-col items-center justify-between flex-grow px-4 md:px-8">
+      <div className="flex flex-col items-center justify-between flex-grow px-4 md:px-8 lg:px-16">
         <div className="mt-8 text-center">
           <div className="mb-6">
             <motion.h1
@@ -39,7 +40,7 @@ function HomeCom_1() {
 
           <div className="flex flex-wrap justify-center gap-4">
             <motion.button
-              className="bg-gradient-to-t from-[#10C6FE] to-white text-black px-6 py-3 rounded-full text-sm sm:text-base md:text-lg"
+              className="bg-gradient-to-t from-[#10C6FE] to-sky-300 text-black px-6 py-3 rounded-full text-sm sm:text-base md:text-lg"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.6 }}
@@ -58,13 +59,13 @@ function HomeCom_1() {
             </motion.button>
           </div>
 
-          <div className="   relative mt-12 w-full flex  justify-center items-center  ">
+          <div className="relative mt-12 w-full flex justify-center items-center">
             <div className="relative w-full max-w-2xl mx-auto flex justify-center items-center">
               <motion.img
                 src="https://framerusercontent.com/images/oVzsjnF7pbuUpFOa6pbEvrVE.png"
                 alt="Card 1"
-                className="w-[40%] sm:w-[50%] md:w-[50%] lg:w-[40%] rotate-[-5deg] z-10 absolute"
-                style={{ top: "10%", left: "40%" }}
+                className="w-[40%] sm:w-[50%] md:w-[50%] lg:w-[50%] rotate-[-5deg] z-10 absolute"
+                style={{ top: "10%", left: "50%" }}
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -74,8 +75,8 @@ function HomeCom_1() {
               <motion.img
                 src="https://framerusercontent.com/images/nUekvLII8vRBFNKYaYDbim4pdI.png"
                 alt="Card 2"
-                className="w-[50%] sm:w-[60%] md:w-[40%] lg:w-[50%] rotate-[0deg] z-0 absolute "
-                style={{ top: "30%", right: "40%",left: "10%" }}
+                className="w-[50%] sm:w-[60%] md:w-[40%] lg:w-[70%] rotate-[0deg] z-0 absolute"
+                style={{ top: "30%", right: "40%", left: "10%" }}
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
