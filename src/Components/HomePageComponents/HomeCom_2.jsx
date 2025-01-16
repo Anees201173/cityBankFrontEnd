@@ -1,10 +1,10 @@
 
 function HomeCom_2() {
   return (
-    <div className="bg-black text-white h-screen w-full text-center font-bold mt-[200px] px-4 sm:px-8 md:px-16">
-      <h1 className="text-2xl sm:text-3xl lg:text-4xl">We've been mentioned in the press</h1>
-      <marquee direction="left" className="h-[50px] mt-[40px]">
-        <ul className="flex gap-x-5 text-[60px] sm:text-[22px] md:text-[25px] lg:text-[28px] font-bold text-[#5A5A5A]">
+    <div className="bg-black text-white h-screen w-full text-center font-bold mt-[200px] px-4 sm:px-8 md:px-16 md:mt-[300px]">
+      <h1 className="text-1xl sm:text-1.1xl lg:text-2xl">We've been mentioned in the press</h1>
+      <marquee direction="left" className="h-[50px] mt-[40px] ">
+        <ul className="flex gap-x-5 text-[30px] sm:text-[22px]   md:text-[25px] lg:text-[28px] font-bold text-[#5A5A5A]">
           <li>GIZMODO</li>
           <li>Bloomberg</li>
           <li>Forbes</li>

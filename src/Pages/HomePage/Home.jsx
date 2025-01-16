@@ -7,12 +7,15 @@ function Home() {
     return (
         <div>
             <div className='bg-black '>
+                    <div>
 
                 <HomeCom_1 />
-                <div > 
+                    </div>
+                
                 <HomeCom_2 />
-                </div>
+              
                 <HomeCom_3/>
+              
             </div>
         </div>
     )
