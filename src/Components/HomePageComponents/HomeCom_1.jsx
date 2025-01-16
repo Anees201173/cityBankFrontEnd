@@ -86,6 +86,10 @@ function HomeCom_1() {
           </div>
         </div>
       </div>
+      <div class="w-full mt-[500px]">
+  <hr class="h-[2px] bg-gradient-to-r from-black via-[rgba(0,183,195,1)] to-[rgba(167,223,0,1)] border-none"/>
+</div>
+
     </div>
   );
 }
