@@ -1,5 +1,6 @@
 import React from "react";
 import { RiChatSmile2Line } from "react-icons/ri";
+
 import { motion } from "framer-motion";
 
 function HomeCom_4() {
@@ -33,7 +34,6 @@ function HomeCom_4() {
   return (
     <>
       <div className="bg-[#03020C] min-h-screen w-full">
-        {/* Header Section */}
         <motion.div
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -48,9 +48,7 @@ function HomeCom_4() {
           </h1>
         </motion.div>
 
-        {/* Main Section */}
         <section className="flex flex-col md:flex-row justify-center items-center mt-10 sm:mt-16 md:mt-24 gap-y-8 md:gap-x-10 px-6 sm:px-16">
-          {/* Image Section */}
           <div className="relative w-full max-w-[260px] sm:max-w-[300px] md:max-w-[350px] -mx-[50px]">
             <img
               src="https://framerusercontent.com/images/hKDMsmd2zpoxYDUUzWypeOiUY.png?scale-down-to=1024"
@@ -59,7 +57,6 @@ function HomeCom_4() {
             />
             <div className="w-[200px] sm:w-[290px] h-[60px] sm:h-[80px] rounded-[20px] bg-[#D8D8D8] opacity-30 absolute bottom-0 -right-[190px] transform -translate-x-1/2 border-[10px] border-white"></div>
           </div>
-          {/* Content Section */}
           <div className="text-white text-center md:text-left max-w-2xl">
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">
               Mastering Digital Solutions for a Future of Possibilities
@@ -68,7 +65,6 @@ function HomeCom_4() {
               At Nexova, our commitment goes beyond conventional solutions; we are on a quest to master the intricacies of digital excellence.
             </p>
 
-            {/* Features */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 md:mb-[155px]">
               {features.map((feature, index) => (
                 <motion.div
