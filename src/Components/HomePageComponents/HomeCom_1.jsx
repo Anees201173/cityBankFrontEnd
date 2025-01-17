@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { MdAccountBalanceWallet } from "react-icons/md";
+import { FaPlay } from "react-icons/fa";
 
 function HomeCom_1() {
   return (
@@ -9,7 +10,7 @@ function HomeCom_1() {
         <div className="mt-8 text-center">
           <div className="mb-6">
             <motion.h1
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-300"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-t from-gray-400 to-gray-100"
               initial={{ opacity: 0, y: -50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
@@ -17,7 +18,7 @@ function HomeCom_1() {
               Smart Digital Banking For a
             </motion.h1>
             <motion.h1
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mt-2 text-gray-300"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mt-2 text-transparent bg-clip-text bg-gradient-to-t from-gray-400 to-gray-100"
               initial={{ opacity: 0, y: -50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.2 }}
@@ -49,12 +50,13 @@ function HomeCom_1() {
               Open an Account Today
             </motion.button>
             <motion.button
-              className="bg-transparent border-[2px] border-gray-600 px-6 py-3 rounded-full text-sm sm:text-base md:text-lg"
+              className="bg-transparent border-[2px] border-gray-600 px-6 py-3 rounded-full text-sm sm:text-base md:text-lg flex items-center gap-2"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.8 }}
               whileHover={{ scale: 1.05 }}
             >
+              <FaPlay className="text-gray-600 text-lg sm:text-xl md:text-2xl" />
               Watch Video
             </motion.button>
           </div>
@@ -87,8 +89,8 @@ function HomeCom_1() {
         </div>
       </div>
       <div class="w-full mt-[500px]">
-  <hr class="h-[2px] bg-gradient-to-r from-black via-[rgba(0,183,195,1)] to-[rgba(167,223,0,1)] border-none"/>
-</div>
+        <hr class="h-[2px] bg-gradient-to-r from-black via-[rgba(0,183,195,1)] to-[rgba(167,223,0,1)] border-none" />
+      </div>
 
     </div>
   );

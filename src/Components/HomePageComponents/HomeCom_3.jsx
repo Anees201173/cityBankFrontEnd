@@ -11,11 +11,11 @@ function HomeCom_3() {
     return (
         <>
         <div className='relative bottom-[400px]'>
-            <div className="bg-black h-full w-full text-center px-4 sm:px-8  lg:px-16 py-10 ">
+            <div className="  w-full text-center px-4 sm:px-8  lg:px-16 py-10 ">
                 <motion.h1
-                    initial={{ opacity: 0, y: -50 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 2, ease: "easeOut" }}
+                   initial={{ opacity: 0, y: -50 }}
+                   animate={{ opacity: 1, y: 0 }}
+                   transition={{ duration: 1 }}
                     className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white"
                 >
                     Powerful Features
