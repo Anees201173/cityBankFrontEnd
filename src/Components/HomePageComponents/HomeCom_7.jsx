@@ -43,8 +43,8 @@ function HomeCom_7() {
 
   return (
     <div>
-      <div className='bg-[#03020C] w-full h-screen text-white'>
-        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 p-8'>
+      <div className='bg-[#03020C] w-full text-white'>
+        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-y-[70px] p-8'>
           {
             cardsData.map((card, index) => (
               <div key={index} className=''>

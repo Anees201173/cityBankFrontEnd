@@ -32,10 +32,11 @@ function HomeCom_3() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 justify-center items-start mt-10     lg:mt-16">
                     <motion.div
                         className="bg-gradient-to-t from-[#171717] to-[#3a3636] w-full rounded-[40px] p-6 sm:p-8 sm:h-[800px]"
-                        initial="hidden"
-                        whileInView="visible"
+                        initial={{ x: -200 }}
+                        whileInView={{ x: 0 }}
                         viewport={{ once: true }}
                         variants={cardVariants}
+                        transition={{ type: 'spring', stiffness: 50 }}
                     >
                         <h1 className="text-lg sm:text-xl lg:text-2xl font-bold text-white mb-4">
                             Grow your wealth

@@ -65,6 +65,7 @@ function HomeCom_5() {
           <div className="flex justify-center items-center mb-[50px] ">
           <div className="flex bg-[#151515] p-1 rounded-full">
             <motion.button
+            
               className={`px-4 py-2 rounded-full  ${
                 selected === "Monthly"
                   ? "bg-gradient-to-t from-[#10C6FE] to-sky-300 text-black"
