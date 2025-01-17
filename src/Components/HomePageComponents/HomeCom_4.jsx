@@ -1,5 +1,9 @@
 import React from "react";
 import { RiChatSmile2Line } from "react-icons/ri";
+import { SiSpringsecurity } from "react-icons/si";
+import { AiOutlineMobile } from "react-icons/ai";
+import { RiExchangeDollarFill } from "react-icons/ri";
+
 
 import { motion } from "framer-motion";
 
@@ -15,25 +19,25 @@ function HomeCom_4() {
       title: "Security is our priority",
       description:
         "Your money is safe with us. We use industry-leading security measures to protect your financial information.",
-      icon: RiChatSmile2Line,
+      icon: SiSpringsecurity,
     },
     {
       title: "Innovation at your fingertips",
       description:
         "Experience a seamless banking experience with our cutting-edge mobile app.",
-      icon: RiChatSmile2Line,
+      icon: AiOutlineMobile,
     },
     {
       title: "We speak your language",
       description:
         "We believe financial knowledge is key. We offer educational resources and personalized guidance.",
-      icon: RiChatSmile2Line,
+      icon: RiExchangeDollarFill,
     },
   ];
 
   return (
     <>
-      <div className="bg-[#03020C] min-h-screen w-full">
+      <div className=" min-h-500px w-full">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}

@@ -12,7 +12,9 @@ function Home() {
                     </div>
                 <HomeCom_2 />
                 <HomeCom_3/>
+                <div className='bg-[#03020C]'>
                 <HomeCom_4 />
+                </div>
 
               
             </div>
