@@ -5,10 +5,11 @@ import HomeCom_3 from '../../Components/HomePageComponents/HomeCom_3'
 import HomeCom_4 from '../../Components/HomePageComponents/HomeCom_4'
 import HomeCom_5 from '../../Components/HomePageComponents/HomeCom_5'
 import HomeCom_6 from '../../Components/HomePageComponents/HomeCom_6'
+import HomeCom_7 from '../../Components/HomePageComponents/HomeCom_7'
 function Home() {
     return (
         <div>
-            <div className='bg-black '>
+            <div className='bg-black h-full'>
                 <div>
                     <HomeCom_1 />
                 </div>
@@ -21,6 +22,9 @@ function Home() {
                         <div className='mt-[100px]'>
                             <HomeCom_6 />
                         </div>
+                      
+                            <HomeCom_7 />
+                        
                     </div> 
                 </div>
 
