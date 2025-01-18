@@ -1,7 +1,6 @@
 import React from 'react';
 
 function HomeCom_7() {
-
   const cardsData = [
     {
       image: "https://framerusercontent.com/images/f40R3D0EQfVRovF4bbNho8gbv4U.png?scale-down-to=1024",
@@ -43,7 +42,8 @@ function HomeCom_7() {
 
   return (
     <div>
-      <div className="text-white flex flex-row mt-[80px] md:flex-row justify-around items-center md:items-start gap-4 md:gap-0">
+      {/* Header Section */}
+      <div className="text-white flex flex-row mt-[80px] md:flex-row justify-around items-center gap-4 md:gap-0">
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold">
           Articles
         </h1>
@@ -52,16 +52,23 @@ function HomeCom_7() {
         </button>
       </div>
 
-      <div className='bg-[#03020C] w-full text-white'>
-        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-y-[70px] p-8'>
+      {/* Articles Section */}
+      <div className="bg-[#03020C] w-full text-white">
+        {/* Grid Layout with responsive behavior */}
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 p-8">
           {
             cardsData.map((card, index) => (
-              <div key={index} className=''>
-                <img src={card.image} alt={card.title} className='w-[600px] object-cover rounded-md ' />
-                <div className='mt-4'>
-                  <p className='text-gray-300 mt-[15px]'>{card.data}</p>
-                  <h3 className='text-[17px] font-bold mt-[10px]'>{card.title}</h3>
-                  <p className=' sm:w-[500px] text-justify text-gray-300 text-[15px] font-semibold mt-[10px] md:[600px]'>{card.description}</p>
+              <div key={index} className="flex flex-col">
+                {/* Image Section */}
+                <img src={card.image} alt={card.title} className="w-full  object-cover rounded-md" />
+
+                {/* Content Section */}
+                <div className="mt-4">
+                  <p className="text-gray-300 mt-2">{card.data}</p>
+                  <h3 className="text-lg sm:text-xl font-bold mt-2">{card.title}</h3>
+                  <p className="text-sm sm:text-base text-justify text-gray-300 font-semibold mt-2">
+                    {card.description}
+                  </p>
                 </div>
               </div>
             ))
@@ -69,7 +76,7 @@ function HomeCom_7() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default HomeCom_7;
