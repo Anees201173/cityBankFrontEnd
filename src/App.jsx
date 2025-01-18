@@ -8,10 +8,10 @@ import AboutPageComp_1 from './Components/AboutPageComponents/AboutPageComp_1';
 function App() {
     return (
         <BrowserRouter>
-            <div className="relative min-h-screen"> 
+            {/* <div className="relative min-h-screen"> 
                 <div className='absolute top-0 md:fixed md:top-0 w-full z-50'>
                     <Navbar />
-                </div>
+                </div> */}
                 
                 <Routes>
                     <Route path="/" element={<Home />} />
@@ -19,9 +19,9 @@ function App() {
                 </Routes>
                 
                 <div className="">
-                    <Footer />
+                    {/* <Footer /> */}
                 </div>
-            </div>
+            {/* </div> */}
         </BrowserRouter>
     );
 }
