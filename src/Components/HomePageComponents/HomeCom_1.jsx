@@ -5,6 +5,15 @@ import { FaPlay } from "react-icons/fa";
 function HomeCom_1() {
   return (
     <div className="min-h-screen w-full bg-black text-white flex flex-col">
+      <div className="flex items-center gap-3 mb-10 relative mt-10 sm:mt-6 mx-auto text-center">
+        <div className="text-2xl font-bold text-sky-500">
+          <span className="bg-gradient-to-r from-sky-500 to-green-500 text-transparent bg-clip-text">
+            C
+          </span>
+        </div>
+        <h1 className="text-xl font-bold sm:text-2xl">Citybank</h1>
+      </div>
+
       <div className="flex flex-col items-center justify-between flex-grow px-4 md:px-8 lg:px-16">
         <div className="mt-8 text-center">
           <div className="mb-6">
@@ -87,10 +96,10 @@ function HomeCom_1() {
           </div>
         </div>
       </div>
-      <div class="w-full mt-[100px] sm:mt-[40px] md:mt-[480px]">
-        <hr class="h-[2px] bg-gradient-to-r from-black via-[rgba(0,183,195,1)] to-[rgba(167,223,0,1)] border-none" />
-      </div>
 
+      <div className="w-full mt-[100px] sm:mt-[40px] md:mt-[480px]">
+        <hr className="h-[2px] bg-gradient-to-r from-black via-[rgba(0,183,195,1)] to-[rgba(167,223,0,1)] border-none" />
+      </div>
     </div>
   );
 }

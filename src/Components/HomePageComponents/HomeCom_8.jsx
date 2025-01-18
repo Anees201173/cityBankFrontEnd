@@ -67,15 +67,12 @@ const TestimonialSlider = () => {
 
   return (
     <div className="bg-black w-full min-h-screen text-white px-6 py-12">
-      {/* Heading */}
       <h1 className="text-2xl md:text-4xl font-bold mb-8 text-left">Testimonial</h1>
 
-      {/* Slider */}
       <div className="relative">
         <Slider {...settings}>
           {testimonials.map((testimonial, index) => (
             <div key={index} className="flex flex-col md:flex-row items-center gap-8 md:gap-12 px-4">
-              {/* Image Section */}
               <div className="flex justify-center items-center ">
               <div className="w-full md:w-1/3 flex justify-center">
                 <img
@@ -85,7 +82,6 @@ const TestimonialSlider = () => {
                 />
               </div>
 
-              {/* Content Section */}
               <div className="w-full md:w-2/3 text-center md:text-left ">
                 <p className="text-lg md:text-2xl mb-4 leading-relaxed  md:w-[700px]  ">{testimonial.text}</p>
                 <div className="flex items-center justify-start gap-4">

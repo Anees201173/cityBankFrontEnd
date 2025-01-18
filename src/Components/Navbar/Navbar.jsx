@@ -43,7 +43,6 @@ function Navbar() {
 
       <nav className="bg-black text-white px-12 py-4 fixed  top-0 left-0 right-0 z-50  md:hidden">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          {/* Menu button is now aligned to the right */}
           <button
             className="ml-auto text-sky-500"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}

@@ -13,9 +13,7 @@ function HomeCom_6() {
           </p>
         </div>
 
-        {/* Select dropdowns container */}
         <div className="flex flex-col gap-y-6 mt-8 lg:mt-[60px] w-full lg:w-auto lg:ml-[110px]">
-          {/* Repeated select dropdowns */}
           {[...Array(5)].map((_, index) => (
             <select
               key={index}

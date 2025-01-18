@@ -42,7 +42,6 @@ function HomeCom_7() {
 
   return (
     <div>
-      {/* Header Section */}
       <div className="text-white flex flex-row mt-[80px] md:flex-row justify-around items-center gap-4 md:gap-0">
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold">
           Articles
@@ -52,17 +51,13 @@ function HomeCom_7() {
         </button>
       </div>
 
-      {/* Articles Section */}
       <div className="bg-[#03020C] w-full text-white">
-        {/* Grid Layout with responsive behavior */}
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 p-8">
           {
             cardsData.map((card, index) => (
               <div key={index} className="flex flex-col">
-                {/* Image Section */}
                 <img src={card.image} alt={card.title} className="w-full  object-cover rounded-md" />
 
-                {/* Content Section */}
                 <div className="mt-4">
                   <p className="text-gray-300 mt-2">{card.data}</p>
                   <h3 className="text-lg sm:text-xl font-bold mt-2">{card.title}</h3>
