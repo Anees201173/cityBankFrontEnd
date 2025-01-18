@@ -47,12 +47,12 @@ function HomeCom_7() {
         <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-y-[70px] p-8'>
           {
             cardsData.map((card, index) => (
-              <div key={index} className=''>
-                <img src={card.image} alt={card.title} className='w-[600px] object-cover rounded-md' />
+              <div key={index} className=' '>
+                <img src={card.image} alt={card.title} className='w-[600px] object-cover rounded-md ' />
                 <div className='mt-4'>
                   <p className='text-gray-300 mt-[15px]'>{card.data}</p>
                   <h3 className='text-[17px] font-bold mt-[10px]'>{card.title}</h3>
-                  <p className='w-[600px] text-justify text-gray-300 text-[15px] font-semibold mt-[10px]'>{card.description}</p>
+                  <p className=' sm:w-[500px] text-justify text-gray-300 text-[15px] font-semibold mt-[10px] md:[600px]'>{card.description}</p>
                 </div>
               </div>
             ))

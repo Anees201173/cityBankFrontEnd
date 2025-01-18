@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { MdAccountBalanceWallet } from "react-icons/md";
 import { FaPlay } from "react-icons/fa";
 
 function HomeCom_1() {
