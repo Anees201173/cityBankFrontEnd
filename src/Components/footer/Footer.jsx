@@ -5,7 +5,6 @@ function Footer() {
     return (
         <footer className="bg-black text-white py-10 px-4 md:px-16">
             <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
-                {/* Logo and Tagline */}
                 <div className="col-span-1 lg:col-span-2">
                     <div className="flex items-center gap-3 mb-4">
                         <div className="text-2xl font-bold text-sky-500">
@@ -20,7 +19,6 @@ function Footer() {
                     </p>
                 </div>
 
-                {/* Product Links */}
                 <div>
                     <h3 className="font-semibold mb-4">Product</h3>
                     <ul className="space-y-2 text-sm">
@@ -30,7 +28,6 @@ function Footer() {
                     </ul>
                 </div>
 
-                {/* Company Links */}
                 <div>
                     <h3 className="font-semibold mb-4">Company</h3>
                     <ul className="space-y-2 text-sm">
@@ -41,7 +38,6 @@ function Footer() {
                     </ul>
                 </div>
 
-                {/* Contact Info */}
                 <div>
                     <h3 className="font-semibold mb-4">Contacts us</h3>
                     <ul className="space-y-3 text-sm">
@@ -66,7 +62,6 @@ function Footer() {
                     </ul>
                 </div>
 
-                {/* Newsletter Subscription */}
                 <div className="flex flex-col justify-center items-center">
                     <h3 className="font-semibold mb-4 text-center">Subscribe to our newsletter</h3>
                     <form className="flex flex-col md:flex-row justify-center items-center gap-4 w-full">
@@ -85,12 +80,10 @@ function Footer() {
                 </div>
             </div>
 
-            {/* Divider */}
             <div className="mt-10">
                 <hr className="bg-gray-700" />
             </div>
 
-            {/* Copyright Section */}
             <div className="flex flex-col md:flex-row justify-between items-center mt-6 text-sm">
                 <div className="flex items-center">
                     <FaRegCopyright className="mr-1" />
