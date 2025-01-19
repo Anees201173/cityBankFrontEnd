@@ -4,6 +4,7 @@ import Home from './Pages/HomePage/Home';
 import Footer from './Components/footer/Footer';
 import Navbar from './Components/Navbar/Navbar';
 import About from './Pages/AboutPage/About';
+import AboutPageComp_3 from './Components/AboutPageComponents/AboutPageComp_3';
 
 function App() {
     return (

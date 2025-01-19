@@ -37,7 +37,7 @@ function AboutPageComp_2() {
                     </div>
                 </div>
 
-                <div className="flex flex-col lg:flex-row justify-between items-center gap-8 p-6 lg:p-12">
+                <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-8 p-6 lg:p-12">
                     <div className="w-full lg:w-1/2 text-center lg:text-left">
                         <div className="flex justify-center lg:justify-start items-center gap-x-4">
                             <div className="w-[40px] bg-[#43D1FF] flex items-center justify-center py-[10px] rounded-[5px] text-black">
