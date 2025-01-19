@@ -92,28 +92,25 @@ function Navbar() {
 
         {isMobileMenuOpen && (
           <ul className="md:hidden mt-4 space-y-4 text-sm text-center">
-            <li>
-              <a
-                href="#"
-                className="block px-4 py-2 bg-gray-800 rounded-full hover:bg-gray-700 transition"
-              >
-                Home
-              </a>
+            <li className={` cursor-pointer  ${activeLink === '/' ? "px-4 py-1  rounded-full bg-[#323232] transition" : ""} `} onClick={() => handleActiveLink("/")}>
+
+              Home
+
             </li>
-            <li>
-              <a href="#" className="block hover:text-sky-500 transition">
-                About
-              </a>
+            <li className={` cursor-pointer  ${activeLink === '/about' ? "px-4 py-1  rounded-full bg-[#323232] transition" : ""} `} onClick={() => handleActiveLink("/about")}>
+
+              About
+
             </li>
-            <li>
-              <a href="#" className="block hover:text-sky-500 transition">
-                Blog
-              </a>
+            <li className={` cursor-pointer  ${activeLink === '/blog' ? "px-4 py-1  rounded-full bg-[#323232] transition" : ""} `} onClick={() => handleActiveLink("/blog")}>
+
+              Blog
+
             </li>
-            <li>
-              <a href="#" className="block hover:text-sky-500 transition">
-                Contact
-              </a>
+            <li className={` cursor-pointer  ${activeLink === '/contact' ? "px-4 py-1  rounded-full bg-[#323232] transition" : ""} `} onClick={() => handleActiveLink("/contact")}>
+
+              Contact
+
             </li>
             <li>
               <a
