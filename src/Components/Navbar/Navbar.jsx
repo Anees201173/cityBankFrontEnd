@@ -1,39 +1,48 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+  const navigate = useNavigate();
+  const [activeLink, setActiveLink] = useState("/");
+
+
+  const handleActiveLink = (link) => {
+    navigate(link);
+    setActiveLink(link);
+  };
+
+
+
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
     <>
-      <div className="hidden md:flex justify-center mx-auto bg-black p-[10px] w-[400px] rounded-[50px] absolute top-0 -right-[50px] -left-[50px] border-[2px] border-[#28282865] ">
+      <div className="hidden md:flex justify-center mx-auto bg-black p-[5px] w-[400px] rounded-[50px] absolute top-0 -right-[50px] -left-[50px] border-[2px] border-[#28282865] ">
         <ul className="flex items-center space-x-6 text-white">
-          <li>
-            <a
-              href="/"
-              className="px-4 py-2 bg-gray-800 rounded-full hover:bg-gray-700 transition"
-            >
-              Home
-            </a>
+          <li className={` cursor-pointer  ${activeLink === '/' ? "px-4 py-1  rounded-full bg-[#323232] transition" : ""} `} onClick={() => handleActiveLink("/")}>
+
+            Home
+
           </li>
-          <li>
-            <a href="/" className="hover:text-sky-500 transition">
-              About
-            </a>
+          <li className={` cursor-pointer  ${activeLink === '/about' ? "px-4 py-1  rounded-full bg-[#323232] transition" : ""} `} onClick={() => handleActiveLink("/about")}>
+
+            About
+
           </li>
-          <li>
-            <a href="/" className="hover:text-sky-500 transition">
-              Blog
-            </a>
+          <li className={` cursor-pointer  ${activeLink === '/blog' ? "px-4 py-1  rounded-full bg-[#323232] transition" : ""} `} onClick={() => handleActiveLink("/blog")}>
+
+            Blog
+
           </li>
-          <li>
-            <a href="/" className="hover:text-sky-500 transition">
-              Contact
-            </a>
+          <li className={` cursor-pointer  ${activeLink === '/contact' ? "px-4 py-1  rounded-full bg-[#323232] transition" : ""} `} onClick={() => handleActiveLink("/contact")}>
+
+            Contact
+
           </li>
           <li>
             <a
               href="/"
-              className="px-4 py-2 bg-gradient-to-t from-[#10C6FE] to-sky-300 rounded-full hover:opacity-90 transition"
+              className="px-4 py-1 bg-gradient-to-t from-[#10C6FE] to-sky-300 rounded-full hover:opacity-90 transition"
             >
               Register
             </a>

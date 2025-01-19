@@ -43,6 +43,13 @@ const TestimonialSlider = () => {
       {
         breakpoint: 1024, // Laptops and smaller
         settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1280, // Larger tablets and small desktops
+        settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
         },
@@ -67,31 +74,39 @@ const TestimonialSlider = () => {
 
   return (
     <div className="bg-black w-full min-h-screen text-white px-6 py-12">
-      <h1 className="text-2xl md:text-4xl font-bold mb-8 text-left">Testimonial</h1>
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 text-left">
+        Testimonial
+      </h1>
 
       <div className="relative">
         <Slider {...settings}>
           {testimonials.map((testimonial, index) => (
             <div key={index} className="flex flex-col md:flex-row items-center gap-8 md:gap-12 px-4">
-              <div className="flex justify-center items-center ">
-              <div className="w-full md:w-1/3 flex justify-center">
-                <img
-                  src={testimonial.img}
-                  alt={testimonial.name}
-                  className="w-full max-w-[300px] md:max-w-full rounded-lg shadow-lg  "
-                />
-              </div>
-
-              <div className="w-full md:w-2/3 text-center md:text-left ">
-                <p className="text-lg md:text-2xl mb-4 leading-relaxed  md:w-[700px]  ">{testimonial.text}</p>
-                <div className="flex items-center justify-start gap-4">
-                  <div className="">
-                    <h3 className="font-bold text-lg mt-[50px] ">{testimonial.name}</h3>
-                    <p className="text-sm text-gray-400">{testimonial.role}</p>
-                  </div>
-                  <FaQuoteRight className="text-4xl text-gray-600" />
+              <div className="flex justify-center items-center w-full">
+                <div className="w-full md:w-1/3 flex justify-center mb-6 md:mb-0">
+                  <img
+                    src={testimonial.img}
+                    alt={testimonial.name}
+                    className="w-[200px] sm:w-[250px] md:w-[300px] lg:w-[350px] max-w-full rounded-lg shadow-lg"
+                  />
                 </div>
-              </div>
+
+                <div className="w-full md:w-2/3 text-center md:text-left">
+                  <p className="text-lg sm:text-xl md:text-2xl mb-4 leading-relaxed">
+                    {testimonial.text}
+                  </p>
+                  <div className="flex items-center justify-start gap-4">
+                    <div>
+                      <h3 className="font-bold text-lg md:text-xl mt-[50px]">
+                        {testimonial.name}
+                      </h3>
+                      <p className="text-sm md:text-base text-gray-400">
+                        {testimonial.role}
+                      </p>
+                    </div>
+                    <FaQuoteRight className="text-4xl text-gray-600" />
+                  </div>
+                </div>
               </div>
             </div>
           ))}
