@@ -4,8 +4,7 @@ import HomeCom_2 from '../HomePageComponents/HomeCom_2';
 function AboutPageComp_1() {
     return (
         <>
-            <div className="bg-black w-full h-full py-8 sm:py-12 md:py-16">
-                {/* Logo Section */}
+            <div className="py-8 sm:py-12 md:py-16 ">
                 <div className="flex gap-x-2 justify-center items-center mb-6 sm:mb-8">
                     <div className="text-2xl font-bold text-sky-500">
                         <span className="bg-gradient-to-r from-sky-500 to-green-500 text-transparent bg-clip-text text-4xl sm:text-5xl md:text-6xl">
@@ -15,17 +14,15 @@ function AboutPageComp_1() {
                     <h1 className="text-xl font-bold sm:text-2xl text-white">Citybank</h1>
                 </div>
 
-                {/* Main Heading */}
-                <div className="flex flex-col justify-center items-center mt-8 sm:mt-12 md:mt-5">
+                <div className="flex flex-col justify-center items-center mt-8 sm:mt-12 md:mt-12">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-t from-gray-400 to-gray-100 text-center">
                         Empowering You on Your
                     </h1>
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-t from-gray-400 to-gray-100 text-center">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-t from-gray-400 to-gray-100 text-center mt-[20px]">
                         Financial Journey
                     </h1>
                 </div>
 
-                {/* Image Section */}
                 <div className="p-4 sm:p-6 md:p-8 flex justify-center mt-8 sm:mt-12 md:mt-5">
                     <img
                         src="https://framerusercontent.com/images/iBpB2QVfKzVP19PsYoqCvAHZ7Q.png"

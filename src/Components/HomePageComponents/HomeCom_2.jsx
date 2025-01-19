@@ -1,4 +1,4 @@
-
+import React from "react";
 function HomeCom_2() {
   return (
     <div className=" relative bottom-[130px]  text-white h-screen w-full text-center font-bold mt-[200px] px-4 sm:px-8 sm:relative  md:px-16 md:relative md:bottom-[100px]">
