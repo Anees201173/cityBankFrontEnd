@@ -50,7 +50,7 @@ function AboutPageComp_1() {
                                 <span className='text-[#5A5A5A]'> is unique, and that's why we offer a secure and innovative digital banking platform designed to simplify your finances and empower you to take control.</span>
                             </p>
                         </div>
-                        <div className='flex justify-center gap-x-12 items-center mt-[50px] text-[#B1B1B1] text-3xl sm:text-4xl md:text-5xl font-bold'>
+                        <div className='flex justify-center gap-x-6 items-center mt-[50px] text-[#B1B1B1] text-3xl sm:text-4xl md:text-5xl font-bold'>
                             <div className='border-r-[2px] pr-8'>
                                 124M+
                                

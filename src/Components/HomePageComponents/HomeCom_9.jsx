@@ -13,10 +13,10 @@ function HomeCom_9() {
                 </div>
 
                 <div className="flex flex-col justify-center items-center text-center gap-6 md:gap-8">
-                    <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold max-w-[400px]">
+                    <h1 className="text-xl sm:text-2xl md:text-2xl lg:text-3xl font-bold max-w-[400px]">
                         Get started with Digital Banking Today
                     </h1>
-                    <button className="bg-gradient-to-t from-[#10C6FE] to-sky-300 text-black px-6 py-3 rounded-full text-sm sm:text-base md:text-lg">
+                    <button className="bg-gradient-to-t from-[#10C6FE] to-sky-300 text-black px-6 py-3 rounded-full text-sm sm:text-base md:text-[10px]">
                         Open an Account Today
                     </button>
                 </div>
