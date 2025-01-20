@@ -108,6 +108,7 @@ function HomeCom_3() {
                                 Send and receive money internationally with ease.
                             </p>
                         </motion.div>
+                        
                     </div>
                 </div>
             </div>

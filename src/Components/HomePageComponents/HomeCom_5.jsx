@@ -48,14 +48,15 @@ function HomeCom_5() {
 
   return (
     <div className="min-h-screen w-full text-white px-4 sm:px-6 lg:px-10">
-      <div className="text-center mt-16">
-        <h1 className="text-3xl sm:text-[35px] md:text-[45px] font-bold">
-          Simple & Transparent Pricing
-        </h1>
-        <p className="text-lg sm:text-xl md:text-[23px] text-gray-200 mt-[30px]">
-          Offer different plans or highlight free features.
-        </p>
-      </div>
+     <div className="text-center mt-12 sm:mt-16 px-4 sm:px-6 md:px-8">
+  <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
+    Simple & Transparent Pricing
+  </h1>
+  <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[23px] text-gray-200 mt-6 sm:mt-8">
+    Offer different plans or highlight free features.
+  </p>
+</div>
+
 
       <div className="bg-black text-white py-10 px-4 sm:px-10 mt-16">
         <div className="flex justify-center items-center mb-[50px]">

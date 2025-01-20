@@ -22,7 +22,7 @@ function Navbar() {
           <li className={` cursor-pointer  ${activeLink === '/' ? "px-4 py-1  rounded-full bg-[#323232] transition" : ""} `} onClick={() => handleActiveLink("/")}>
 
             Home
-
+ 
           </li>
           <li className={` cursor-pointer  ${activeLink === '/about' ? "px-4 py-1  rounded-full bg-[#323232] transition" : ""} `} onClick={() => handleActiveLink("/about")}>
 

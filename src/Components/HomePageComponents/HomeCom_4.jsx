@@ -8,6 +8,11 @@ import { RiExchangeDollarFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 
 function HomeCom_4() {
+
+  const slideIn = {
+    hidden: { x: "-100vw", opacity: 0 },
+    visible: { x: 0, opacity: 1, transition: { type: "spring", stiffness: 50 } },
+  };
   const features = [
     {
       title: "We put you first",
@@ -44,12 +49,15 @@ function HomeCom_4() {
           transition={{ duration: 1 }}
           className="text-white text-center pt-16 sm:pt-20 md:pt-32 px-4"
         >
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-            Ditch the Branch. Embrace
-          </h1>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-            Your Financial Future.
-          </h1>
+        <div className="text-center px-4 sm:px-6 md:px-8">
+  <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-snug sm:leading-tight">
+    Ditch the Branch. Embrace
+  </h1>
+  <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-snug sm:leading-tight mt-2">
+    Your Financial Future.
+  </h1>
+</div>
+
         </motion.div>
 
         <section className="flex flex-col md:flex-row justify-center items-center mt-10 sm:mt-16 md:mt-24 gap-y-8 md:gap-x-10 px-6 sm:px-16">
@@ -59,7 +67,7 @@ function HomeCom_4() {
               alt="Card"
               className="w-full  sm:w-full md:relative right-[80px]"
             />
-            <div className="w-[200px] sm:w-[290px] h-[60px] sm:h-[80px] rounded-[20px] bg-[#D8D8D8] opacity-30 absolute bottom-0 -right-[190px] transform -translate-x-1/2 border-[10px] border-white"></div>
+            <div className="w-[280px] sm:w-[290px] h-[60px] sm:h-[80px] rounded-[20px] bg-[#D8D8D8] opacity-30 absolute bottom-0 -right-[190px] transform -translate-x-1/2 border-[10px] border-white"></div>
           </div>
           <div className="text-white text-center md:text-left max-w-2xl">
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">
@@ -74,9 +82,7 @@ function HomeCom_4() {
                 <motion.div
                   key={index}
                   className="flex items-start space-x-4"
-                  initial={{ opacity: 0, x: 50 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 1.5 + index * 0.2 }}
+                  initial="hidden" animate="visible" variants={slideIn}
                 >
                   <div
                     className="flex items-center justify-center bg-gradient-to-t 

@@ -1,6 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function Cards({ data }) {
+    const navigate = useNavigate();
+
+    const handleProductClick = (data) => {
+      navigate("/detail", { state: { data } });
+    };
   return (
     <div>
       <div className="bg-[#03020C] w-full text-white">
@@ -11,6 +17,7 @@ function Cards({ data }) {
                 src={card.image}
                 alt={card.title}
                 className="w-full object-cover rounded-md"
+                onClick={() => handleProductClick(card)}
               />
               <div className="mt-4">
                 <p className="text-gray-300 mt-2">{card.data}</p>

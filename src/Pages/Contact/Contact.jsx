@@ -13,7 +13,7 @@ const Contact = () => {
         <div className="bg-black text-white  flex flex-col items-center justify-center px-4 sm:px-8 py-10">
             <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-10">
                 <div className="flex flex-col">
-                    <h2 className="text-3xl sm:text-5xl font-bold mb-4">Drop us a line</h2>
+                    <h2 className="text-3xl sm:text-5xl font-bold mb-4 mt-[90px]">Drop us a line</h2>
                     <p className="mb-6 text-gray-400 text-sm sm:text-base">
                         At Nexova, our commitment goes beyond conventional solutions; we are on a quest to master the intricacies of digital excellence.
                     </p>
