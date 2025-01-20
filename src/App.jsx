@@ -10,12 +10,10 @@ function App() {
     return (
         <BrowserRouter>
             <div className="relative min-h-screen flex flex-col"> 
-                {/* Navbar */}
                 <div className="absolute top-0 md:fixed md:top-[570px] w-full z-50">
                     <Navbar />
                 </div>
                 
-                {/* Main Content */}
                 <div className="flex-grow">
                     <Routes>
                         <Route path="/" element={<Home />} />
@@ -24,7 +22,6 @@ function App() {
                     </Routes>
                 </div>
 
-                {/* Footer */}
                 <div className="mt-auto">
                     {/* <Footer /> */}
                 </div>

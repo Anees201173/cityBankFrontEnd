@@ -62,7 +62,7 @@ const Contact = () => {
                     </form>
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                    <div className="w-full h-64 sm:h-[400px] bg-gray-800 rounded-lg overflow-hidden mb-4">
+                    <div className="w-full h-64 sm:h-[400px] bg-gray-800 rounded-[30px] overflow-hidden mb-4">
                         <iframe
                             title="Map"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8402914129374!2d-122.42165448468105!3d37.77492927975995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c2d2b1f7f%3A0x2b9e7f4dbb7e903d!2sPapakeechie%20Lake!5e0!3m2!1sen!2sus!4v1692291770331!5m2!1sen!2sus"
