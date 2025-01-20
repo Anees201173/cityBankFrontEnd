@@ -13,13 +13,13 @@ function About() {
     <div className='bg-black w-full'>
       <AboutPageComp_1 />
 
-      <div className='relative bottom-[600px]'>
+      <div >
         <AboutPageComp_2 />
       </div>
-      <div className='relative bottom-[500px]'>
+      <div className=''>
         <AboutPageComp_3 />
       </div>
-      <div className='relative bottom-[400px]'>
+      <div className=''>
         <Contact />
       </div>
       <div>

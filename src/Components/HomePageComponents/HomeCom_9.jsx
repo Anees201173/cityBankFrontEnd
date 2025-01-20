@@ -2,7 +2,7 @@ import React from 'react';
 
 function HomeCom_9() {
     return (
-        <div className="w-full h-screen bg-[#03020C] text-white flex justify-center items-center">
+        <div className="w-full py-10 bg-[#03020C] text-white flex justify-center items-center">
             <div className="bg-[#151515] p-6 md:p-12 w-[90%] md:w-[80%] max-w-[1100px] h-auto rounded-[30px] flex flex-col md:flex-row justify-between items-center gap-6">
                 <div className="hidden md:block">
                     <img

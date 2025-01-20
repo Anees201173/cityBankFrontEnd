@@ -10,7 +10,7 @@ function HomeCom_3() {
 
     return (
         <>
-        <div className='relative bottom-[400px]'>
+        <div className='relative'>
             <div className="  w-full text-center px-4 sm:px-8  lg:px-16 py-10 ">
                 <motion.h1
                    initial={{ opacity: 0, y: -50 }}

@@ -10,7 +10,7 @@ import { TbBrandLinkedinFilled } from "react-icons/tb";
 
 const Contact = () => {
     return (
-        <div className="bg-black text-white min-h-screen flex flex-col items-center justify-center px-4 sm:px-8 py-10">
+        <div className="bg-black text-white  flex flex-col items-center justify-center px-4 sm:px-8 py-10">
             <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-10">
                 <div className="flex flex-col">
                     <h2 className="text-3xl sm:text-5xl font-bold mb-4">Drop us a line</h2>
