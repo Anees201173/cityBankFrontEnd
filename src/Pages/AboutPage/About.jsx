@@ -9,9 +9,7 @@ import HomeCom_9 from '../../Components/HomePageComponents/HomeCom_9';
 function About() {
   return (
     <>
-    <div className='w-full h-screen'>
-
-   
+    <div className='w-full '>
     <div className='bg-black w-full'>
       <AboutPageComp_1 />
 

@@ -5,6 +5,7 @@ import Footer from './Components/footer/Footer';
 import Navbar from './Components/Navbar/Navbar';
 import About from './Pages/AboutPage/About';
 import Contact from './Pages/Contact/Contact';
+import Blog from './Pages/BlogPage/Blog';
 
 function App() {
     return (
@@ -19,11 +20,12 @@ function App() {
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/contact" element={<Contact />} />
+                        <Route path="/blog" element={<Blog />} />
                     </Routes>
                 </div>
 
-                <div className="mt-auto">
-                    {/* <Footer /> */}
+                <div className="">
+                    <Footer />
                 </div>
             </div>
         </BrowserRouter>
