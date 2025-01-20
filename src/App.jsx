@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar/Navbar';
 import About from './Pages/AboutPage/About';
 import Contact from './Pages/Contact/Contact';
 import Blog from './Pages/BlogPage/Blog';
+import Detail from './Pages/AboutPage/Detail';
 
 function App() {
     return (
@@ -21,6 +22,8 @@ function App() {
                         <Route path="/about" element={<About />} />
                         <Route path="/contact" element={<Contact />} />
                         <Route path="/blog" element={<Blog />} />
+                        <Route path="/detail" element={<Detail />} />
+
                     </Routes>
                 </div>
 

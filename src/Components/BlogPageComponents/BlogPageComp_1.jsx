@@ -1,5 +1,4 @@
 import React from 'react';
-import { MdTimelapse } from "react-icons/md";
 
 function BlogPageComp_1() {
   return (

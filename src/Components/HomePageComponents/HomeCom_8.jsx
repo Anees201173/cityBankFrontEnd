@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const TestimonialSlider = () => {
-  // Custom navigation arrows
   const NextArrow = ({ onClick }) => (
     <div
       className="absolute top-4 right-4 transform bg-black p-3 rounded-full cursor-pointer text-white flex justify-center items-center z-10"
@@ -34,21 +33,21 @@ const TestimonialSlider = () => {
     prevArrow: <PrevArrow />,
     responsive: [
       {
-        breakpoint: 768, // Tablets and smaller
+        breakpoint: 768, 
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 1024, // Laptops and smaller
+        breakpoint: 1024,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 1280, // Larger tablets and small desktops
+        breakpoint: 1280, 
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,

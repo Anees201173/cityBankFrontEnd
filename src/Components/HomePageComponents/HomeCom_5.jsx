@@ -48,7 +48,6 @@ function HomeCom_5() {
 
   return (
     <div className="min-h-screen w-full text-white px-4 sm:px-6 lg:px-10">
-      {/* Heading Section */}
       <div className="text-center mt-16">
         <h1 className="text-3xl sm:text-[35px] md:text-[45px] font-bold">
           Simple & Transparent Pricing
@@ -58,9 +57,7 @@ function HomeCom_5() {
         </p>
       </div>
 
-      {/* Pricing Plans Section */}
       <div className="bg-black text-white py-10 px-4 sm:px-10 mt-16">
-        {/* Toggle buttons for Monthly/Yearly */}
         <div className="flex justify-center items-center mb-[50px]">
           <div className="flex bg-[#151515] p-1 rounded-full">
             <motion.button
@@ -91,7 +88,6 @@ function HomeCom_5() {
           </div>
         </div>
 
-        {/* Plan Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {plans.map((plan, index) => (
             <div
