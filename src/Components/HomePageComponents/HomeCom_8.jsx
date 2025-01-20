@@ -72,7 +72,7 @@ const TestimonialSlider = () => {
   ];
 
   return (
-    <div className="bg-black w-full min-h-screen text-white px-6 py-12">
+    <div className="bg-black w-full  text-white px-6 py-12">
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 text-left">
         Testimonial
       </h1>
@@ -81,7 +81,7 @@ const TestimonialSlider = () => {
         <Slider {...settings}>
           {testimonials.map((testimonial, index) => (
             <div key={index} className="flex flex-col md:flex-row items-center gap-8 md:gap-12 px-4">
-              <div className="flex justify-center items-center w-full">
+              <div className=" grid  sm:flex justify w-full">
                 <div className="w-full md:w-1/3 flex justify-center mb-6 md:mb-0">
                   <img
                     src={testimonial.img}
