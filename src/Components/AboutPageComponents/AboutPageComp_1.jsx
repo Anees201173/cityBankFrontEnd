@@ -13,7 +13,7 @@ function AboutPageComp_1() {
                             C
                         </span>
                     </div>
-                    <h1 className="text-xl font-bold sm:text-2xl text-white">Citybank</h1>
+                    <h1 className="text-xl font-bold sm:text-2xl text-white">Iswiss Bank</h1>
                 </div>
 
                 <motion.div 

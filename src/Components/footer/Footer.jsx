@@ -12,10 +12,10 @@ function Footer() {
                                 C
                             </span>
                         </div>
-                        <h1 className="text-xl font-bold">Citybank</h1>
+                        <h1 className="text-xl font-bold">Iswiss Bank</h1>
                     </div>
                     <p className="text-sm">
-                        We're more than just a bank. At Citybank, we're your financial partner.
+                        We're more than just a bank. At Iswiss Bank, we're your financial partner.
                     </p>
                 </div>
 
@@ -44,7 +44,7 @@ function Footer() {
                         <li>
                             <span className="flex items-center gap-2">
                                 <FaEnvelope />
-                                <a href="mailto:contact@citybank.com">contact@citybank.com</a>
+                                <a href="mailto:contact@Iswiss Bank.com">contact@Iswiss Bank.com</a>
                             </span>
                         </li>
                         <li>
@@ -88,7 +88,7 @@ function Footer() {
                 <div className="flex items-center">
                     <FaRegCopyright className="mr-1" />
                     <p>
-                        2024 Citybank. All Rights Reserved.
+                        2024 Iswiss Bank. All Rights Reserved.
                     </p>
                 </div>
                 <div className="mt-4 md:mt-0">
