@@ -5,6 +5,7 @@ import HomeCom_9 from '../../Components/HomePageComponents/HomeCom_9';
 function Detail() {
   const cardsData = [
     {
+    
       image: "https://framerusercontent.com/images/f40R3D0EQfVRovF4bbNho8gbv4U.png?scale-down-to=1024",
       data: "May 27, 2024",
       title: "New Video: Unraveling the Mysteries of Quantum Entanglement",
@@ -20,7 +21,7 @@ function Detail() {
 
   return (
     <>
-      <div className="bg-black mt-[55px] sm:mt-0">
+      <div className="bg-black  mt-[54px] sm:mt-0">
         <div className="flex flex-wrap gap-x-2 justify-center items-center mb-6 sm:mb-8 ">
           <div className="text-2xl font-bold text-sky-500">
             <span className="bg-gradient-to-r from-sky-500 to-green-500 text-transparent bg-clip-text text-4xl sm:text-5xl md:text-6xl  " >
