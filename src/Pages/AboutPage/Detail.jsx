@@ -20,7 +20,7 @@ function Detail() {
 
   return (
     <>
-      <div className="bg-black">
+      <div className="bg-black mt-[55px] sm:mt-0">
         <div className="flex flex-wrap gap-x-2 justify-center items-center mb-6 sm:mb-8 ">
           <div className="text-2xl font-bold text-sky-500">
             <span className="bg-gradient-to-r from-sky-500 to-green-500 text-transparent bg-clip-text text-4xl sm:text-5xl md:text-6xl  " >
