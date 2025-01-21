@@ -100,7 +100,7 @@ function HomeCom_1() {
         </div>
       </div>
 
-      <div className="w-full mt-[190px] sm:mt-[40px] md:mt-[480px]">
+      <div className="w-full mt-[190px] sm:mt-[40px] md:mt-[500px]">
         <hr className="h-[2px] bg-gradient-to-r from-black via-[rgba(0,183,195,1)] to-[rgba(167,223,0,1)] border-none" />
       </div>
     </div>
