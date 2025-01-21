@@ -11,7 +11,7 @@ function HomeCom_1() {
             C
           </span>
         </div>
-        <h1 className="text-xl font-bold sm:text-2xl">Citybank</h1>
+        <h1 className="text-xl font-bold sm:text-2xl">Iswiss bank</h1>
       </div>
 
       <div className="flex flex-col items-center justify-between flex-grow px-4 md:px-8 lg:px-16">
