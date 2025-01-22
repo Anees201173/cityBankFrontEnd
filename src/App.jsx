@@ -9,31 +9,35 @@ import Blog from './Pages/BlogPage/Blog';
 import Detail from './Pages/AboutPage/Detail';
 
 function App() {
-    return (
-        <BrowserRouter>
-          <div className="relative min-h-screen flex flex-col"> 
-    <div className="absolute top-0 md:fixed md:top-[570px] w-full z-50 lg:bottom-0 lg:mt-0">
-        <Navbar />
-    </div>
+  const routes = [
+    { path: "/", element: <Home /> },
+    { path: "/about", element: <About /> },
+    { path: "/contact", element: <Contact /> },
+    { path: "/blog", element: <Blog /> },
+    { path: "/detail", element: <Detail /> },
+  ];
 
+  return (
+    <BrowserRouter>
+      <div className="relative min-h-screen flex flex-col">
+        <div className="absolute top-0 md:fixed md:top-[570px] w-full z-50 lg:bottom-0 lg:mt-0">
+          <Navbar />
+        </div>
 
-                <div className="flex-grow">
-                    <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/about" element={<About />} />
-                        <Route path="/contact" element={<Contact />} />
-                        <Route path="/blog" element={<Blog />} />
-                        <Route path="/detail" element={<Detail />} />
+        <div className="flex-grow">
+          <Routes>
+            {routes.map((route, index) => (
+              <Route key={index} path={route.path} element={route.element} />
+            ))}
+          </Routes>
+        </div>
 
-                    </Routes>
-                </div>
-
-                <div className="">
-                    <Footer />
-                </div>
-            </div>
-        </BrowserRouter>
-    );
+        <div>
+          <Footer />
+        </div>
+      </div>
+    </BrowserRouter>
+  );
 }
 
 export default App;
