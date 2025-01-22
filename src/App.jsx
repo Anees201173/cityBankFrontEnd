@@ -11,11 +11,12 @@ import Detail from './Pages/AboutPage/Detail';
 function App() {
     return (
         <BrowserRouter>
-            <div className="relative min-h-screen flex flex-col"> 
-                <div className="absolute top-0 md:fixed md:top-[570px] w-full z-50">
-                    <Navbar />
-                </div>
-                
+          <div className="relative min-h-screen flex flex-col"> 
+    <div className="absolute top-0 md:fixed md:top-[570px] w-full z-50 lg:bottom-0 lg:mt-0">
+        <Navbar />
+    </div>
+
+
                 <div className="flex-grow">
                     <Routes>
                         <Route path="/" element={<Home />} />

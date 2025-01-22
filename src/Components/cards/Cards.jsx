@@ -10,7 +10,7 @@ function Cards({ data }) {
   return (
     <div>
       <div className="bg-[#03020C] w-full text-white">
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 p-8">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 p-4">
           {data.map((card, index) => (
             <div key={index} className="flex flex-col">
               <img
