@@ -3,7 +3,7 @@ import React from 'react';
 function HomeCom_6() {
   return (
     <>
-      <div className="bg-[#03020C] w-full min-h-screen text-white flex flex-col lg:flex-row justify-center items-center lg:items-start p-4">
+      <div className="bg-[#030305] w-full min-h-screen text-white flex flex-col lg:flex-row justify-center items-center lg:items-start p-4">
         <div className="text-center lg:text-left relative lg:top-[50px] lg:left-[30px] mb-8 lg:mb-0">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold w-full lg:w-[500px]">
             Simple & Transparent Pricing

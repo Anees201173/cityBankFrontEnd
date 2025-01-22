@@ -35,7 +35,7 @@ function AboutPageComp_3() {
     ];
 
     return (
-        <div className="bg-black text-white py-12 px-4">
+        <div className="bg-[#030305] text-white py-12 px-4">
             <div className="flex flex-col justify-center items-center text-center lg:-mb-10">
                 <h1 className="text-3xl sm:text-4xl font-bold mb-4">
                     Introduce Our Team

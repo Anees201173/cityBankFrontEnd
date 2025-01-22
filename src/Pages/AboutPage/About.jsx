@@ -9,7 +9,7 @@ function About() {
   return (
     <>
       <div className="w-full ">
-        <div className="bg-black w-full">
+        <div className="bg-[#030305] w-full">
           <AboutPageComp_1 />
 
           <div>

@@ -6,7 +6,7 @@ import { FaPeopleGroup } from "react-icons/fa6";
 function AboutPageComp_2() {
     return (
         <>
-            <div className="bg-black text-white ">
+            <div className="bg-[#030305] text-white ">
                 <div className="flex flex-col lg:flex-row justify-between items-center gap-8 p-6 lg:p-12">
                     <div className="w-full lg:w-1/2 flex justify-center items-center">
                         <img

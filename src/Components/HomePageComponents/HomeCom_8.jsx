@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 const TestimonialSlider = () => {
   const NextArrow = ({ onClick }) => (
     <div
-      className="absolute top-4 right-4 transform bg-black p-3 rounded-full cursor-pointer text-white flex justify-center items-center z-10"
+      className="absolute top-4 right-4 transform bg-[#030305] p-3 rounded-full cursor-pointer text-white flex justify-center items-center z-10"
       onClick={onClick}
     >
       <FaArrowRight />
@@ -72,7 +72,7 @@ const TestimonialSlider = () => {
   ];
 
   return (
-    <div className="bg-black w-full min-h-screen text-white px-6 py-12">
+    <div className="bg-[#030305] w-full min-h-screen text-white px-6 py-12">
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 text-left">
         Testimonial
       </h1>
