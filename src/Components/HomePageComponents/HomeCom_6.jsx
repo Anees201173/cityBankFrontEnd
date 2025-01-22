@@ -13,11 +13,11 @@ function HomeCom_6() {
           </p>
         </div>
 
-        <div className="flex flex-col gap-y-6 mt-8 lg:mt-[60px] w-full lg:w-auto lg:ml-[110px]">
+        <div className="flex flex-col gap-y-6 mt-8   lg:mt-[60px] w-full lg:w-auto lg:ml-[110px]">
           {[...Array(5)].map((_, index) => (
             <select
               key={index}
-              className="w-full sm:w-full md:w-[600px] h-[70px] bg-[#151515] text-white rounded-[15px] p-2 outline-none transition-all text-[16px] sm:text-[18px] md:text-[20px] font-semibold"
+              className="w-full sm:w-full md:w-full h-[70px] bg-[#151515] text-white rounded-[15px] p-2 outline-none transition-all text-[16px] sm:text-[18px] md:text-[20px] font-semibold"
             >
               <option value="free">What are the benefits of using digital banking?</option>
             </select>

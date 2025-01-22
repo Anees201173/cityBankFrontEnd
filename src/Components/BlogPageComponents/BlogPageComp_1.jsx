@@ -8,7 +8,7 @@ function BlogPageComp_1() {
           <img
             src="https://framerusercontent.com/images/bS89DMPtTc84lp5XcXsddeYMk.jpg?scale-down-to=512"
             alt="Innovation"
-            className="rounded-[25px] w-full max-w-[500px] sm:max-w-[600px] lg:max-w-[700px] h-auto object-cover"
+            className="rounded-[25px] w-full max-w-[500px] sm:max-w-[600px] lg:max-w-[700px] h-auto object-cover mt-[100px]"
           />
         </div>
 
