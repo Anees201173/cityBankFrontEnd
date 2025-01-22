@@ -6,7 +6,7 @@ import HomeCom_9 from '../../Components/HomePageComponents/HomeCom_9';
 
 function Blog() {
   return (
-    <div className="bg-[#03020C] text-white ">
+    <div className="bg-[#030305] text-white ">
       <div >
         <BlogPageComp_1 />
       </div>

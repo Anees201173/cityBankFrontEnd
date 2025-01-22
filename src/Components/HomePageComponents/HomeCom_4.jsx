@@ -86,7 +86,7 @@ function HomeCom_4() {
                 >
                   <div
                     className="flex items-center justify-center bg-gradient-to-t 
-                    from-[#10C6FE] to-sky-300 p-3 sm:p-4 rounded-[15px] shadow-md"
+                    from-[#e72434] to-[#030305] p-3 sm:p-4 rounded-[15px] shadow-md"
                   >
                     <feature.icon size={24} className="text-black" />
                   </div>

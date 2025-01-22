@@ -12,7 +12,7 @@ function BlogPageComp_3() {
   ];
 
   return (
-    <div className="bg-[#03020C] text-white p-16">
+    <div className="bg-[#030305] text-white p-16">
       <div className="text-center">
         <h2 className="text-3xl md:text-4xl font-bold">Featured categories</h2>
         <p className="mt-4 text-gray-400 text-sm md:text-base max-w-2xl mx-auto">
@@ -25,7 +25,7 @@ function BlogPageComp_3() {
             key={index}
             className="flex items-center gap-4 bg-[#151515] p-4 rounded-[20px] transition duration-300"
           >
-            <div className="flex items-center justify-center bg-gradient-to-t from-[#10C6FE] to-sky-300 text-black text-xl p-3 rounded-[10px]">
+            <div className="flex items-center justify-center bg-gradient-to-t from-[#e72434] to-[#030305] text-black text-xl p-3 rounded-[10px]">
               {category.icon}
             </div>
             <h3 className="text-1xl font-semibold">{category.title}</h3>

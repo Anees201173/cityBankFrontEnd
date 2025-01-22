@@ -58,13 +58,13 @@ function HomeCom_5() {
 </div>
 
 
-      <div className="bg-black text-white py-10 px-4 sm:px-10 mt-16">
+      <div className="bg-[#030305] text-white py-10 px-4 sm:px-10 mt-16">
         <div className="flex justify-center items-center mb-[50px]">
           <div className="flex bg-[#151515] p-1 rounded-full">
             <motion.button
               className={`px-4 py-2 rounded-full ${
                 selected === "Monthly"
-                  ? "bg-gradient-to-t from-[#10C6FE] to-sky-300 text-black"
+                  ? "bg-gradient-to-t from-[#e72434] to-[#030305] text-white"
                   : "hover:text-white"
               }`}
               onClick={() => setSelected("Monthly")}
@@ -77,7 +77,7 @@ function HomeCom_5() {
             <motion.button
               className={`px-4 py-2 rounded-full ${
                 selected === "Yearly"
-                  ? "bg-gradient-to-t from-[#10C6FE] to-sky-300 text-black"
+                  ? "bg-gradient-to-t from-[#e72434] to-[#030305] text-white"
                   : "text-gray-300 hover:text-white"
               }`}
               onClick={() => setSelected("Yearly")}
@@ -121,7 +121,7 @@ function HomeCom_5() {
                   </li>
                 ))}
               </ul>
-              <button className="w-full bg-transparent border-[2px] border-gray-400 py-3 rounded-[50px] hover:bg-gradient-to-b from-[#10C6FE] to-sky-300 hover:text-black hover:border-none transition-all ease-out duration-300 mt-10">
+              <button className="w-full bg-transparent border-[2px] border-gray-400 py-3 rounded-[50px] hover:bg-gradient-to-b from-[#e72434] to-[#030305] hover:text-white hover:border-none transition-all ease-out duration-300 mt-10">
                 Select Plan
               </button>
             </div>

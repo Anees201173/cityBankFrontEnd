@@ -10,7 +10,7 @@ import { TbBrandLinkedinFilled } from "react-icons/tb";
 
 const Contact = () => {
     return (
-        <div className="bg-black text-white  flex flex-col items-center justify-center px-4 sm:px-8 py-10">
+        <div className="bg-[#030305] text-white  flex flex-col items-center justify-center px-4 sm:px-8 py-10">
             <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-10">
                 <div className="flex flex-col">
                     <h2 className="text-3xl sm:text-5xl font-bold mb-4 mt-[90px]">Drop us a line</h2>
@@ -55,7 +55,7 @@ const Contact = () => {
                         </div>
                         <button
                             type="submit"
-                            className="w-full sm:w-auto bg-gradient-to-t from-[#10C6FE] to-sky-300 text-black py-3 px-6 text-[15px] rounded-[30px] transition duration-300 hover:opacity-90"
+                            className="w-full sm:w-auto bg-gradient-to-t from-[#e72434] to-[#030305] text-white py-3 px-6 text-[15px] rounded-[30px] transition duration-300 hover:opacity-90"
                         >
                             Submit message
                         </button>

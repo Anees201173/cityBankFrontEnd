@@ -42,7 +42,7 @@ function Navbar() {
           <li>
             <a
               href="/"
-              className="px-4 py-1 bg-gradient-to-t from-[#10C6FE] to-sky-300 rounded-full hover:opacity-90 transition"
+              className="px-4 py-1 bg-gradient-to-t from-[#e72434] to-[#030305] rounded-full hover:opacity-90 transition"
             >
               Register
             </a>

@@ -72,12 +72,26 @@ function Detail() {
           <Cards data={cardsData} />
         </div>
 
-        <div className="bg-black">
-          <HomeCom_9 />
-        </div>
-      </div>
-    </>
-  );
+                <div className='bg-[#030305] p-[30px]'>
+                    <div>
+                        <div className="text-white flex flex-row mt-[80px] md:flex-row justify-around items-center gap-4 md:gap-0 ">
+                            <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold">
+                              Latest  Articles
+                            </h1>
+                            <button className="bg-[#222030a5] w-[80px] sm:w-[100px] px-4 py-2 rounded-full text-sm sm:text-base">
+                                View
+                            </button>
+                        </div>
+                    </div>
+                    <Cards data={cardsData} />
+                </div>
+                <div className='bg-black'>
+                    <HomeCom_9 />
+                </div>
+            </div>
+        </>
+    );
+
 }
 
 export default Detail;

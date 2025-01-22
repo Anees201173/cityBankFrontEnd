@@ -43,7 +43,7 @@ function BlogPageComp_2() {
   return (
     <div>
    
-        <div className='mb-[50px] bg-[#03020C] p-[20px]'>
+        <div className='mb-[50px] bg-[#030305] p-[20px]'>
         <div className="text-white flex flex-row mt-[80px] md:flex-row justify-around items-center gap-4 md:gap-0 ">
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold">
           Articles
