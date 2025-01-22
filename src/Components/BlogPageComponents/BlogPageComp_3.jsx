@@ -19,7 +19,7 @@ function BlogPageComp_3() {
           At Nexova, our commitment goes beyond conventional solutions; we are on a quest to master the intricacies of digital excellence.
         </p>
       </div>
-      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-6 md:px-12">
+      <div className="mt-8   grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3 gap-6 px-6 md:px-12">
         {categories.map((category, index) => (
           <div
             key={index}
