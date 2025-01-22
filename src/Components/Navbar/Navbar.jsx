@@ -101,12 +101,12 @@ function Navbar() {
               </li>
             ))}
             <li>
-              <a
+              <button
                 href="#"
                 className="block px-4 py-2 bg-gradient-to-r from-sky-500 to-sky-300 rounded-full hover:opacity-90 transition"
               >
                 Register
-              </a>
+              </button>
             </li>
           </ul>
         )}
